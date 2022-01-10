@@ -17,11 +17,16 @@ h2{
     margin-bottom: 20px;
 }
 button{
-    border:none;
+    border:2px solid grey;
     padding-top: 10px;
     padding-bottom: 10px;
     color: red;
     font-weight: bold;
+    border-radius: 25px;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    text-align: center;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -31,4 +36,7 @@ button{
 }
 #save-btn{
     background:green;
+}
+button:hover{
+border:none;
 }
