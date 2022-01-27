@@ -45,3 +45,7 @@ border-color:greenyellow;
 #save-btn:hover{
     border-color: brown;
 }
+p{
+    font-size: 30px;
+    color: brown;
+}
